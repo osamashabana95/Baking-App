@@ -1,9 +1,7 @@
-package com.example.osama.baking;
+package com.example.osama.baking.widget;
 
 import android.content.Intent;
 import android.widget.RemoteViewsService;
-
-import com.example.osama.baking.ListRemoteViewsFactory;
 
 /**
  * Created by osama on 4/19/2018.

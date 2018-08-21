@@ -1,4 +1,4 @@
-package com.example.osama.baking;
+package com.example.osama.baking.widget;
 
 import android.app.PendingIntent;
 import android.appwidget.AppWidgetManager;
@@ -7,6 +7,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.widget.RemoteViews;
 
+import com.example.osama.baking.R;
 import com.example.osama.baking.activities.DetailsActivity;
 
 /**

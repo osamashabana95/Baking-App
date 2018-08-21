@@ -1,4 +1,4 @@
-package com.example.osama.baking;
+package com.example.osama.baking.widget;
 
 import android.app.IntentService;
 import android.appwidget.AppWidgetManager;
