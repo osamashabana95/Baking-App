@@ -11,7 +11,7 @@
         android:roundIcon="@mipmap/ic_baking_circle"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"
+        <activity android:name=".activities.MainActivity"
             android:launchMode="singleTop">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,18 +19,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".DetailsActivity"
-            android:parentActivityName=".MainActivity"
+        <activity android:name=".activities.DetailsActivity"
+            android:parentActivityName=".activities.MainActivity"
             android:launchMode="singleTop">
         <meta-data
             android:name="android.support.PARENT_ACTIVITY"
-            android:value=".MainActivity" />
+            android:value=".activities.MainActivity" />
         </activity>
-        <activity android:name=".VideoActivity"
-            android:parentActivityName=".DetailsActivity">
+        <activity android:name=".activities.VideoActivity"
+            android:parentActivityName=".activities.DetailsActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".DetailsActivity" />
+                android:value=".activities.DetailsActivity" />
         </activity>
         <service android:name=".WidgetIntentService" />
         <service

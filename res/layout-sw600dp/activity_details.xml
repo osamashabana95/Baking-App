@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:baselineAligned="false"
     android:orientation="horizontal"
-    tools:context="com.example.osama.baking.DetailsActivity"
+    tools:context="com.example.osama.baking.activities.DetailsActivity"
     >
     <FrameLayout android:id="@+id/details_container"
         android:layout_width="0dp"

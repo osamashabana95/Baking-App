@@ -1,10 +1,7 @@
-package com.example.osama.baking;
+package com.example.osama.baking.activities;
 
-import android.content.ContentValues;
 import android.content.Context;
 import android.content.Intent;
-import android.content.SharedPreferences;
-import android.net.Uri;
 import android.os.Parcelable;
 import android.support.v4.app.LoaderManager;
 import android.support.v4.content.AsyncTaskLoader;
@@ -13,8 +10,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.util.DisplayMetrics;
-import android.widget.Toast;
+
+import com.example.osama.baking.R;
+import com.example.osama.baking.adapters.RecipeAdapter;
+import com.example.osama.baking.utility.Utility;
 
 import java.net.URL;
 
@@ -24,7 +23,7 @@ import butterknife.ButterKnife;
 public class MainActivity extends AppCompatActivity {
     private static final int CARDS_LOADER_ID = 44;
     GridLayoutManager mLayoutManager;
-    private    RecipeAdapter mRecipeAdapter;
+    private RecipeAdapter mRecipeAdapter;
     private Parcelable mListState;
     @BindView(R.id.recipe_cards_list)RecyclerView mRecyclerView;
 

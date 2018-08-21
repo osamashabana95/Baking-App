@@ -9,8 +9,9 @@ import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 import android.support.annotation.Nullable;
 
+import com.example.osama.baking.utility.Utility;
+
 import java.net.URL;
-import java.util.ArrayList;
 
 /**
  * Created by osama on 4/19/2018.

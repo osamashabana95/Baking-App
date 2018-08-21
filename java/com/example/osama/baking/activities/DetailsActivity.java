@@ -1,4 +1,4 @@
-package com.example.osama.baking;
+package com.example.osama.baking.activities;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -7,8 +7,12 @@ import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class DetailsActivity extends AppCompatActivity implements VideoFragment.OnButtonClickListener{
-protected static   boolean mTwoPane;
+import com.example.osama.baking.fragments.MasterListFragment;
+import com.example.osama.baking.R;
+import com.example.osama.baking.fragments.VideoFragment;
+
+public class DetailsActivity extends AppCompatActivity implements VideoFragment.OnButtonClickListener {
+public static   boolean mTwoPane;
     MasterListFragment fragment;
     @Override
     protected void onCreate(Bundle savedInstanceState) {

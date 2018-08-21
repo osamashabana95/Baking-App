@@ -1,4 +1,4 @@
-package com.example.osama.baking;
+package com.example.osama.baking.fragments;
 
 import android.content.Context;
 import android.content.Intent;
@@ -15,6 +15,13 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import com.example.osama.baking.R;
+import com.example.osama.baking.utility.Utility;
+import com.example.osama.baking.activities.DetailsActivity;
+import com.example.osama.baking.activities.VideoActivity;
+import com.example.osama.baking.adapters.IngredientsAdapter;
+import com.example.osama.baking.adapters.StepsAdapter;
 
 import java.net.URL;
 

@@ -1,4 +1,4 @@
-package com.example.osama.baking;
+package com.example.osama.baking.adapters;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -9,6 +9,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.example.osama.baking.R;
 import com.squareup.picasso.Picasso;
 
 import butterknife.BindView;
@@ -19,9 +20,9 @@ import butterknife.ButterKnife;
  */
 
 public class StepsAdapter extends RecyclerView.Adapter<StepsAdapter.StepsViewHolder> {
-    protected static String[] mDescriptions;
-    protected static String[] mShortDescriptions;
-    protected static String[] mVideoUrl;
+    public static String[] mDescriptions;
+    public static String[] mShortDescriptions;
+    public static String[] mVideoUrl;
     Context mContext;
     private String[] mImages;
     private final StepsOnClickHandler mClickHandler;

@@ -1,13 +1,17 @@
-package com.example.osama.baking;
+package com.example.osama.baking.activities;
 
 import android.content.Intent;
 import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class VideoActivity extends AppCompatActivity implements VideoFragment.OnButtonClickListener{
+import com.example.osama.baking.R;
+import com.example.osama.baking.adapters.StepsAdapter;
+import com.example.osama.baking.fragments.VideoFragment;
 
- protected  static boolean mLandscape;
+public class VideoActivity extends AppCompatActivity implements VideoFragment.OnButtonClickListener {
+
+ public   static boolean mLandscape;
     VideoFragment fragment ;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
