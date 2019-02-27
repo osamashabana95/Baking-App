@@ -19,14 +19,11 @@ Created an app to view video recipes that incorporated media loading, verifying 
 ## Libraries
 This project uses the following libraries:
 
-Picasso
-
-Butter Knife
+[Picasso](https://github.com/square/picasso)
+[Butter Knife](https://github.com/JakeWharton/butterknife)
 
 ## License
-Copyright 2013 Square, Inc.
-
-Copyright 2013 Jake Wharton
+Copyright 2013 Osama Shabana
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
